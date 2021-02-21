@@ -9,16 +9,19 @@
   "devDependencies": {
     "@openzeppelin/contracts": "^3.4.0",
     "@types/chai": "^4.2.15",
-    "@types/mocha": "^8.2.1",
     "chai": "^4.3.0",
     "ethereum-waffle": "^3.2.2",
-    "mocha": "^8.3.0",
     "prettier": "^2.2.1",
-    "ts-mocha": "^8.0.0",
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.5",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-typescript": "^7.12.17",
+    "@types/jest": "^26.0.20",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3"
   },
   "scripts": {
     "build": "waffle",
-    "test": "yarn build && ts-mocha 'test/**/*.ts'"
+    "test": "cross-env NODE_ENV=test jest ./test"
   }
 }
