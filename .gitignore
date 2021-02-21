@@ -2,3 +2,4 @@ node_modules
 yarn-error.log
 ecosystem.config.js
 cache
+build

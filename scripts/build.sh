@@ -1,0 +1,1 @@
+cd packages/remy-contracts && yarn build
