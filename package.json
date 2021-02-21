@@ -1,0 +1,10 @@
+{
+  "name": "@remy-finance/core",
+  "version": "0.0.1",
+  "description": "Core contracts",
+  "main": "index.js",
+  "repository": "https://github.com/remy-finance/core.git",
+  "author": "carlosballadares",
+  "license": "MIT",
+  "private": true
+}
