@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "build": "sh scripts/build.sh",
+    "test": "sh scripts/test.sh"
   }
 }
