@@ -1,2 +1,4 @@
-cd packages/remy-contracts && yarn test
+cd dishes/remy-contracts && yarn test
+cd ../remy-crepe-mobile && yarn test
 cd ../remy-common && yarn test
+cd ../remy-web-components && yarn test

@@ -25,5 +25,10 @@
     "@stencil/core": "^2.0.1",
     "react": "^17.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/puppeteer": "5.4.2",
+    "puppeteer": "5.5.0"
+  }
 }

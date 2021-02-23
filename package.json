@@ -9,8 +9,30 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*",
-      "services/*"
+      "dishes/*",
+      "utensils/*"
+    ],
+    "nohoist": [
+      "**/puppeteer",
+      "**/puppeteer/**",
+      "**/@types/puppeteer",
+      "**/@types/puppeteer/**",
+      "**/pg",
+      "**/pg/**",
+      "**/@types/react-native",
+      "**/@types/react-native/**",
+      "**/typeorm",
+      "**/typeorm/**",
+      "**/@graphql-codegen",
+      "**/@graphql-codegen/**",
+      "**/graphql",
+      "**/graphql/**",
+      "**/apollo-server",
+      "**/apollo-server/**",
+      "**/apollo-server-express",
+      "**/apollo-server-express/**",
+      "**/@stencil/core",
+      "**/@stencil/core/**"
     ]
   },
   "devDependencies": {
