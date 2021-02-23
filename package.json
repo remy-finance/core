@@ -9,8 +9,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*",
-      "services/*"
+      "dishes/*",
+      "utensils/*"
     ]
   },
   "devDependencies": {

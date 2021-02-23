@@ -3,3 +3,4 @@ yarn-error.log
 ecosystem.config.js
 cache
 build
+lib
