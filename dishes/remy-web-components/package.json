@@ -1,5 +1,5 @@
 {
-  "name": "remy-web-components",
+  "name": "@remy-finance/remy-web-components",
   "version": "0.0.1",
   "description": "Web implentation of design system",
   "main": "dist/index.cjs.js",
