@@ -7,6 +7,7 @@
 - Ubuntu 20.04
 - Lerna
 - Docker
+- test
 
 ```
 chromium-browser
