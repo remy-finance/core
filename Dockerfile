@@ -9,7 +9,7 @@ COPY package.json .
 COPY yarn.lock .
 
 
-COPY dishes ./dishes
+COPY ingredients ./ingredients
 
 COPY utensils ./utensils
 
@@ -21,10 +21,10 @@ RUN npm install -g lerna
 RUN lerna bootstrap
 
 
-COPY scripts ./scripts
+COPY techniques ./techniques
 
 
-RUN bash scripts/deps.sh
-RUN bash scripts/build.sh
+RUN bash techniques/deps.sh
+RUN bash techniques/build.sh
 
 CMD [ "yarn", "test" ]
