@@ -1,6 +1,6 @@
 {
   "lerna": "2.2.0",
-  "packages": ["dishes/*", "utensils/*"],
+  "packages": ["ingredients/*", "utensils/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "1.0.0"
