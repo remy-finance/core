@@ -5,6 +5,7 @@
 - Node v14.5.0
 - Yarn 2.0
 - Ubuntu 20.04
+- Lerna
 
 ```
 chromium-browser
