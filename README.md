@@ -6,6 +6,7 @@
 - Yarn 2.0
 - Ubuntu 20.04
 - Lerna
+- Docker
 
 ```
 chromium-browser
