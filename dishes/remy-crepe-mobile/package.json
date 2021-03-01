@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "An implementation of the Remy finance design system in react native",
   "author": "carlosballadares",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "private": true,
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
