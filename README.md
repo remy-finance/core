@@ -2,14 +2,6 @@
 
 This project aims to be a monorepo for all components of a decentralized exchange application.
 
-## Folder structure guide
-```
-ingredients -> javascript packages common to web apps
-utensils -> moleculerjs services to be used
-techniques -> scripts to build, install dependencies and run tests
-recipes -> specifications, design system, etc
-gastronomy -> applications built ingredients and utensils
-```
 
 
 
