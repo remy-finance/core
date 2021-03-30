@@ -1,4 +1,4 @@
-## Remy-finance
+## Autofica core
 
 This project aims to be a monorepo for all components of a decentralized exchange application.
 
