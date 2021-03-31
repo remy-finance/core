@@ -1,6 +1,6 @@
 ## Autofica core
 
-This project aims to be a monorepo for all components of a decentralized exchange application.
+This repo served as practice in setting up a monorepo for ts to adapt for other project
 
 
 
